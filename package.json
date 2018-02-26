@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.16.2",
     "mongoose": "^5.0.7"
   },
