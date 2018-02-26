@@ -26,7 +26,7 @@ Please pay attention to HEADERS and JSON.stringify!
     body: JSON.stringify({ name: "NEW", age: 12}),
     headers: {
       Accept: 'application/json',
-      Content-Type: 'application/json',
+      'Content-Type': 'application/json',
     }
   });
   ```
