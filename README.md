@@ -14,5 +14,5 @@ Creating new user. Required parameters: name -> String, age -> Number;
 #### PUT https://test-users-api.herokuapp.com/users/:id
 Editing user by ID, sending in URL. Avialible parameters: name -> String, age -> Number
 
-#### DELETE #### GET https://test-users-api.herokuapp.com/users/:id
+#### DELETE https://test-users-api.herokuapp.com/users/:id
 Deleting user by ID, sending in URL. No parameters.
