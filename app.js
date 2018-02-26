@@ -2,10 +2,13 @@ let env = process.env.NODE_ENV || 'dev';
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const route = require("./route.js");
 const app = express();
+
 app.set("env", env);
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
